@@ -45,7 +45,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-@media (min-width: 1125px) {
+@media (min-width: 1126px) {
   aside {
     position: fixed;
     top: 0;

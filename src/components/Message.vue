@@ -29,11 +29,6 @@ export default {
 </script>
 
 <style scoped>
-main {
-  display: flex;
-  flex-direction: column;
-}
-
 .main {
   font-size: 18px;
   position: relative;
@@ -52,8 +47,8 @@ main {
   user-select: none;
 }
 .message > .line {
-  width: 70px;
-  border: 2px solid #607d8b;
+  width: 120px;
+  border: 1px solid #607d8b;
 }
 .message > p {
   color: #252728;
@@ -68,8 +63,8 @@ main {
 }
 
 .message > .buttonWrapper > button {
-  height: 40px;
-  font-size: 14px;
+  height: 45px;
+  font-size: 16px;
   border-radius: 2px;
   outline: none;
   font-weight: bold;
@@ -165,9 +160,7 @@ button.skip:hover {
 }
 @media (min-width: 1125px) {
   .main {
-    position: fixed;
-    margin: 60px 0;
-    left: 375px;
+    margin: 60px 375px;
     width: calc(100vw - 550px);
     min-height: 400px;
     padding: 50px;
