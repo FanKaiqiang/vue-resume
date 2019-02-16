@@ -1,6 +1,159 @@
 <template>
   <main>
     <div class="main">
+      <h2>项目展示</h2>
+      <div class="line"></div>
+      <div class="job">
+        <h4>Franko Canvas - 在线画板应用</h4>
+        <div class="inner">
+          <div class="msg">
+            <p>此项目是使用原生 JS 实现的在线画板，是我开始学习 JavaScript 时的一个练手作品，基本上实现了一个画板应该具有的所有功能。主要包括刚才提到的自定义画笔、自定义画板、保存画作等功能。</p>
+            <a target="_blank" href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">>>详细介绍</a>
+            <p>技术栈：原生 JS、HTML5、CSS3、Canvas、iconfont、SVG</p>
+            <a target="_blank" href="https://github.com/FanKaiqiang/Franko-canvas">
+              <button class="link">代码链接</button>
+            </a>
+            <a target="_blank" href="http://franko.top/Franko-canvas/">
+              <button class="link">预览链接</button>
+            </a>
+          </div>
+          <img src="../assets/pro1.png">
+        </div>
+      </div>
+      <div class="job">
+        <h4>Franko Canvas - 在线画板应用</h4>
+        <div class="inner">
+          <div class="msg">
+            <p>此项目是使用原生 JS 实现的在线画板，是我开始学习 JavaScript 时的一个练手作品，基本上实现了一个画板应该具有的所有功能。主要包括刚才提到的自定义画笔、自定义画板、保存画作等功能。</p>
+            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">>>详细介绍</a>
+            <p>技术栈：原生 JS、HTML5、CSS3、Canvas、iconfont、SVG</p>
+
+            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">
+              <button class="link">代码链接</button>
+            </a>
+            
+            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">
+              <button class="link">预览链接</button>
+            </a>
+          </div>
+          <img src="../assets/pro1.png">
+        </div>
+      </div>
+      <div class="job">
+        <h4>Franko Canvas - 在线画板应用</h4>
+        <div class="inner">
+          <div class="msg">
+            <p>此项目是使用原生 JS 实现的在线画板，是我开始学习 JavaScript 时的一个练手作品，基本上实现了一个画板应该具有的所有功能。主要包括刚才提到的自定义画笔、自定义画板、保存画作等功能。</p>
+            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">>>详细介绍</a>
+            <p>技术栈：原生 JS、HTML5、CSS3、Canvas、iconfont、SVG</p>
+
+            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">
+              <button class="link">代码链接</button>
+            </a>
+            
+            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">
+              <button class="link">预览链接</button>
+            </a>
+          </div>
+          <img src="../assets/pro1.png">
+        </div>
+      </div>
+      <div class="job">
+        <h4>Franko Canvas - 在线画板应用</h4>
+        <div class="inner">
+          <div class="msg">
+            <p>此项目是使用原生 JS 实现的在线画板，是我开始学习 JavaScript 时的一个练手作品，基本上实现了一个画板应该具有的所有功能。主要包括刚才提到的自定义画笔、自定义画板、保存画作等功能。</p>
+            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">>>详细介绍</a>
+            <p>技术栈：原生 JS、HTML5、CSS3、Canvas、iconfont、SVG</p>
+
+            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">
+              <button class="link">代码链接</button>
+            </a>
+            
+            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">
+              <button class="link">预览链接</button>
+            </a>
+          </div>
+          <img src="../assets/pro1.png">
+        </div>
+      </div>
+      <div class="job">
+        <h4>Franko Canvas - 在线画板应用</h4>
+        <div class="inner">
+          <div class="msg">
+            <p>此项目是使用原生 JS 实现的在线画板，是我开始学习 JavaScript 时的一个练手作品，基本上实现了一个画板应该具有的所有功能。主要包括刚才提到的自定义画笔、自定义画板、保存画作等功能。</p>
+            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">>>详细介绍</a>
+            <p>技术栈：原生 JS、HTML5、CSS3、Canvas、iconfont、SVG</p>
+
+            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">
+              <button class="link">代码链接</button>
+            </a>
+            
+            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">
+              <button class="link">预览链接</button>
+            </a>
+          </div>
+          <img src="../assets/pro1.png">
+        </div>
+      </div>
+      <div class="job">
+        <h4>Franko Canvas - 在线画板应用</h4>
+        <div class="inner">
+          <div class="msg">
+            <p>此项目是使用原生 JS 实现的在线画板，是我开始学习 JavaScript 时的一个练手作品，基本上实现了一个画板应该具有的所有功能。主要包括刚才提到的自定义画笔、自定义画板、保存画作等功能。</p>
+            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">>>详细介绍</a>
+            <p>技术栈：原生 JS、HTML5、CSS3、Canvas、iconfont、SVG</p>
+
+            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">
+              <button class="link">代码链接</button>
+            </a>
+            
+            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">
+              <button class="link">预览链接</button>
+            </a>
+          </div>
+          <img src="../assets/pro1.png">
+        </div>
+      </div>
+      <div class="job">
+        <h4>Franko Canvas - 在线画板应用</h4>
+        <div class="inner">
+          <div class="msg">
+            <p>此项目是使用原生 JS 实现的在线画板，是我开始学习 JavaScript 时的一个练手作品，基本上实现了一个画板应该具有的所有功能。主要包括刚才提到的自定义画笔、自定义画板、保存画作等功能。</p>
+            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">>>详细介绍</a>
+            <p>技术栈：原生 JS、HTML5、CSS3、Canvas、iconfont、SVG</p>
+
+            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">
+              <button class="link">代码链接</button>
+            </a>
+            
+            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">
+              <button class="link">预览链接</button>
+            </a>
+          </div>
+          <img src="../assets/pro1.png">
+        </div>
+      </div>
+      <div class="job">
+        <h4>Franko Canvas - 在线画板应用</h4>
+        <div class="inner">
+          <div class="msg">
+            <p>此项目是使用原生 JS 实现的在线画板，是我开始学习 JavaScript 时的一个练手作品，基本上实现了一个画板应该具有的所有功能。主要包括刚才提到的自定义画笔、自定义画板、保存画作等功能。</p>
+            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">>>详细介绍</a>
+            <p>技术栈：原生 JS、HTML5、CSS3、Canvas、iconfont、SVG</p>
+
+            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">
+              <button class="link">代码链接</button>
+            </a>
+            
+            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">
+              <button class="link">预览链接</button>
+            </a>
+          </div>
+          <img src="../assets/pro1.png">
+        </div>
+      </div>
+      <hr>
       <div class="wrap">
         <span class="ribbon6">项目经历</span>
       </div>
@@ -19,7 +172,14 @@ main {
   display: flex;
   flex-direction: column;
 }
-
+.msg > a {
+  color: blue;
+  font-weight: bold;
+  font-size: 15px;
+}
+h4 {
+  margin-bottom: 0;
+}
 .main {
   font-size: 18px;
   position: relative;
@@ -28,9 +188,48 @@ main {
     rgba(0, 0, 0, 0.23) 0px 6px 10px;
   font-family: 幼圆;
   display: flex;
+  flex-direction: column;
 }
 
+.main > h2 {
+  user-select: none;
+}
 
+.main > .line {
+  width: 120px;
+  border: 1px solid #607d8b;
+}
+.job {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #607d8b;
+}
+.job > .inner {
+  display: flex;
+}
+
+.inner > img {
+  height: 200px;
+}
+
+p {
+  color: #252728;
+  font-size: 15px;
+  line-height: 1.6em;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.link {
+  height: 40px;
+  font-size: 16px;
+  border-radius: 2px;
+  outline: none;
+  padding: 0 1em;
+  border: none;
+  background: #607d8b;
+  color: #f0f0f0;
+  cursor: pointer;
+}
 .wrap {
   position: absolute;
   top: -8px;
@@ -84,9 +283,7 @@ main {
 
 @media (min-width: 1125px) {
   .main {
-    position: fixed;
-    margin: 60px 0;
-    left: 375px;
+    margin: 60px 375px;
     width: calc(100vw - 550px);
     min-height: 400px;
     padding: 50px;
@@ -98,6 +295,11 @@ main {
     width: calc(100vw - 180px);
     min-height: 400px;
     padding: 50px;
+  }
+}
+@media (max-width: 768px) {
+  img {
+    display: none;
   }
 }
 @media (max-width: 550px) {

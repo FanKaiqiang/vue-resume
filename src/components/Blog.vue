@@ -4,9 +4,9 @@
       <h2>博客</h2>
       <div class="line"></div>
       <p>在学习前端技术的历程中，我会将学习后的笔记以及遇到的难点整理为博客，截至目前已经有八十余篇。</p>
-      <p>这是我的博客地址：<a href="http://franko.top">http://franko.top</a> 。</p>
+      <p>这是我的博客地址：<a target="_blank" href="http://franko.top">http://franko.top</a> 。</p>
       <p>其中涵盖各类前端相关的知识点，当然也不全是学习记录，因为有时我也会写一些随笔。</p>
-      <p>博客是用 Hexo + GitHub  搭建的，有时我也会把一些博客搬运到 <a href="https://www.zhihu.com/people/fan-kai-qiang-10-26/activities">知乎</a> 或 <a href="https://www.jianshu.com/u/6717c72aaa43">简书</a> 上和大家分享。</p>
+      <p>博客是用 Hexo + GitHub  搭建的，有时我也会把一些博客搬运到 <a target="_blank" href="https://www.zhihu.com/people/fan-kai-qiang-10-26/activities">知乎</a> 或 <a href="https://www.jianshu.com/u/6717c72aaa43">简书</a> 上和大家分享。</p>
       <p>在日积月累的过程中，写博客已然成为我的一个爱好，在今后的工作与学习中，我还会继续保持这个习惯。</p>
       <div class="wrap">
         <span class="ribbon6">我的博客</span>

@@ -69,6 +69,7 @@ export default {
   outline: none;
   font-weight: bold;
   padding: 0 1em;
+  cursor:pointer;
 }
 
 button.download {
