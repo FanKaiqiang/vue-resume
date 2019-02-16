@@ -164,5 +164,8 @@ svg{
     margin: 0;
     height: calc(100vh - 90px);
   }
+  p.way{
+    font-size: 20px;
+  }
 }
 </style>

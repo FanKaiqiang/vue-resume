@@ -69,7 +69,7 @@ export default {
   outline: none;
   font-weight: bold;
   padding: 0 1em;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 button.download {
@@ -80,7 +80,6 @@ button.download {
 button.download:hover {
   background: #444;
 }
-
 
 button.skip {
   border: 1px solid #607d8b;

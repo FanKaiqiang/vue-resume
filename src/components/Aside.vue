@@ -21,19 +21,19 @@
       <div class="inside">
         <router-link :to="{name:'Contact'}">联系我</router-link>
       </div>
+      <footer class="icons">
+        <a target="_blank" href="https://github.com/FanKaiqiang">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-GitHub"></use>
+          </svg>
+        </a>
+        <a target="_blank" href="https://www.zhihu.com/people/fan-kai-qiang-10-26/activities">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-zhihu-circle-fill"></use>
+          </svg>
+        </a>
+      </footer>
     </div>
-    <footer class="icons">
-      <a href="#">
-        <svg class="icon" aria-hidden="true">
-          <use xlink:href="#icon-GitHub"></use>
-        </svg>
-      </a>
-      <a href="#">
-        <svg class="icon" aria-hidden="true">
-          <use xlink:href="#icon-zhihu-circle-fill"></use>
-        </svg>
-      </a>
-    </footer>
   </aside>
 </template>
 
@@ -83,7 +83,8 @@ export default {
     font-size: 16px;
     margin-bottom: 20px;
   }
-  aside > .small,aside > .big{
+  aside > .small,
+  aside > .big {
     display: none;
   }
 }
@@ -102,10 +103,10 @@ export default {
     font-size: 16px;
     padding: 0 1em;
   }
-  aside > .big{
+  aside > .big {
     display: inline;
   }
-  aside >.small{
+  aside > .small {
     display: none;
   }
   .name,
@@ -131,10 +132,10 @@ export default {
 }
 
 @media (max-width: 768px) {
-  aside > .big{
+  aside > .big {
     display: none;
   }
-  aside >.small{
+  aside > .small {
     display: inline;
     font-size: 14px;
   }
