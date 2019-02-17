@@ -175,6 +175,9 @@ main {
   display: flex;
   flex-direction: column;
 }
+.msg{
+  flex:1;
+}
 .msg > a {
   color: blue;
   font-weight: bold;
@@ -235,6 +238,9 @@ p {
   background: #607d8b;
   color: #f0f0f0;
   cursor: pointer;
+}
+.link:hover{
+  background: #555;
 }
 .wrap {
   position: absolute;
