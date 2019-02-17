@@ -148,7 +148,7 @@ svg{
 }
 @media (max-width: 1125px) {
   .main {
-    margin: 40px;
+    margin: 80px 40px 40px;
     width: calc(100vw - 180px);
     min-height: 400px;
     padding: 50px;
@@ -160,9 +160,9 @@ svg{
   }
   .main {
     width: auto;
-    padding: 1em 2em;
+    padding: 3em 1em;
     margin: 0;
-    height: calc(100vh - 90px);
+    min-height: 85vh;
   }
   p.way{
     font-size: 20px;

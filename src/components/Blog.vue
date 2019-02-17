@@ -121,10 +121,11 @@ a{
 }
 @media (max-width: 1125px) {
   .main {
-    margin: 40px;
+    margin: 80px 40px 40px;
     width: calc(100vw - 180px);
     min-height: 400px;
     padding: 50px;
+    min-height: 100vh;
   }
 }
 @media (max-width: 550px) {
@@ -133,7 +134,7 @@ a{
   }
   .main {
     width: auto;
-    padding: 1em 2em;
+    padding: 3em 1em;
     margin: 0;
   }
 }

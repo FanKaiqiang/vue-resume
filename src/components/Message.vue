@@ -4,17 +4,19 @@
       <div class="message">
         <h1>我是樊凯强</h1>
         <div class="line"></div>
-        <p>前端于我而言，是理性与感性的完美结合，逻辑的精密搭配设计的笃定，诠释一名优秀工程师的必备品质。</p>
-        <p>教育背景 2019 应届本科 南昌大学 计算机科学与技术</p>
-        <p>意向职位 前端开发 并对接触后端有较强兴趣</p>
-        <p>思维灵活发散，强大的自我驱动能力。在独立项目开发过程中体现出优秀的新技术学习、问题分析解决能力。寻找技术驱动，成长空间用激情与成果证明快速成为团队中流砥柱，is not impossible.</p>
+        <p>在我看来，前端工程师是工程师中的设计师，是设计师中的工程师，崇尚美观、 简约、细节与变化，是理性与感性的完美结合</p>
+        <p><span class="bold">教育背景</span> 2019 应届本科 南昌大学 计算机科学与技术</p>
+        <p><span class="bold">意向职位</span> 前端开发</p>
+        <p>在校期间热衷于前端技术的学习，具有强烈的求知欲。做事认真，细致严谨，踏实肯干，有较强的团队合作能力、抗压能力、沟通能力和工作能力。愿意用激情与成果证明自己能够成为团队中流砥柱.</p>
         <div class="buttonWrapper">
-          <button class="download">下载 PDF 版简历</button>
-          <button class="skip">联系我</button>
+          <a href="../../static/resume.pdf" download="2019-樊凯强-应聘前端工程师.pdf"><button class="download">下载 PDF 版简历</button></a>
+          <router-link :to="{name:'Contact'}">
+            <button class="skip">联系我</button>
+          </router-link>
         </div>
       </div>
       <div class="border"></div>
-      <img src="../assets/photo.jpg" alt="照片">
+      <img src="../assets/001.jpg" alt="照片">
       <div class="wrap">
         <span class="ribbon6">个人信息</span>
       </div>
@@ -24,7 +26,16 @@
 
 <script>
 export default {
-  name: "Message"
+  name: "Message",
+  mounted() {
+    VanillaTilt.init(document.querySelector("img"), {
+      max: 1,
+      speed: 50
+    });
+
+    //It also supports NodeList
+    VanillaTilt.init(document.querySelectorAll("img"));
+  }
 };
 </script>
 
@@ -57,12 +68,14 @@ export default {
   letter-spacing: 1px;
   font-weight: 300;
 }
-
+span.bold {
+  font-weight: bold;
+}
 .message > .buttonWrapper {
   user-select: none;
 }
 
-.message > .buttonWrapper > button {
+.message > .buttonWrapper  button {
   height: 45px;
   font-size: 16px;
   border-radius: 2px;
@@ -168,13 +181,13 @@ button.skip:hover {
 }
 @media (max-width: 1125px) {
   .main {
-    margin: 40px;
+    margin: 80px 40px 40px;
     width: calc(100vw - 180px);
     min-height: 400px;
     padding: 50px;
   }
 }
-@media (max-width: 666px) {
+@media (max-width: 768px) {
   .border,
   img {
     display: none;
@@ -189,8 +202,9 @@ button.skip:hover {
   }
   .main {
     width: auto;
-    padding: 1em 2em;
+    padding: 3em 1em;
     margin: 0;
+    min-height: 85vh;
   }
 }
 

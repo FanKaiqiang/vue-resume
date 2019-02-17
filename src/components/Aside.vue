@@ -19,7 +19,7 @@
         <router-link :to="{name:'Blog'}">博客</router-link>
       </div>
       <div class="inside">
-        <router-link :to="{name:'Contact'}">联系我</router-link>
+        <router-link :to="{name:'Contact'}">联系</router-link>
       </div>
       <footer class="icons">
         <a target="_blank" href="https://github.com/FanKaiqiang">
@@ -96,7 +96,9 @@ export default {
     display: flex;
     flex-direction: row;
     align-items: center;
-    position: relative;
+    position: fixed;
+    width: 100vw;
+    z-index: 3;
   }
   aside > span {
     color: #fafafa;
@@ -138,6 +140,9 @@ export default {
   aside > .small {
     display: inline;
     font-size: 14px;
+  }
+  aside > .link > .inside {
+    border: none;
   }
 }
 aside > img {

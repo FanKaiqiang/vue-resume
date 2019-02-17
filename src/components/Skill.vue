@@ -4,18 +4,72 @@
       <h2>专业技能</h2>
       <div class="line"></div>
       <h3>技能雷达图</h3>
-      <div id="main" style="width: 400px;height:260px;"></div>
+      <div id="main"></div>
       <h3>技能描述</h3>
       <ul>
-        <li><p>在校期间主修的专业课程有C/C++、汇编语言、Java、计算机网络、操作系统、数据结构、数据库、软件工程等。</p></li>
-        <li><p>熟练掌握 HTML 5 和常用 CSS 3，能够独立还原设计稿为真实网页。具有 平均水准之上 的审美，追求设计的优雅。</p></li>
-        <li><p>熟练掌握原生Javascript，掌握重要概念如： 原型， 闭包， 作用域链， 面向对象，熟练使用 ES6及ES7 部分新特性。</p></li>
-        <li><p>熟悉 Vue 常用功能，如组件、Vue-Router、双向绑定等</p></li>
-        <li><p>熟悉 React 框架及相关流行库的使用，理解重要概念如：生命周期，异步更新，性能优化，虚拟DOM（DCG），Immutable data等。</p></li>
-        <li><p>熟悉Yarn & Npm & Git ，能够使用Node.js搭配Express进行基本后台开发</p></li>
-        <li><p>熟悉HTTP协议及浏览器渲染原理，了解前端 性能优化策略</p></li>
-        <li><p>拥有总结书写技术博客(点击进入)的习惯</p></li>
-        <li><p>熟练利用Ajax与后端交互，了解常用的跨域解决方案 JSONP、CORS 等</p></li>
+        <li>
+          <p>
+            在校期间主修的
+            <span class="bold">专业课程</span>有C/C++、汇编语言、Java、计算机网络、操作系统、数据结构、数据库、软件工程等。
+          </p>
+        </li>
+        <li>
+          <p>
+            熟练掌握
+            <span class="bold">HTML 5</span> 和常用
+            <span class="bold">CSS 3</span>，能够独立还原设计稿为真实网页。具有良好的前端编程习惯，致力于代码的整体结构规范及优化。
+          </p>
+        </li>
+        <li>
+          <p>
+            熟练掌握
+            <span class="bold">原生Javascript</span>，掌握重要概念如：
+            <span class="bold">原型， 闭包， 作用域链， 面向对象</span>，熟练使用
+            <span class="bold">ES5/6 及 以上</span> 部分新特性。
+          </p>
+        </li>
+        <li>
+          <p>
+            熟悉
+            <span class="bold">Vue</span> 常用功能，如
+            <span class="bold">组件、Vue-Router、双向绑定</span>等
+          </p>
+        </li>
+        <li>
+          <p>
+            熟悉
+            <span class="bold">React</span> 常用功能，如：
+            <span class="bold">组件、JSX、React-Router、React-Redux</span>等。
+          </p>
+        </li>
+        <li>
+          <p>
+            熟悉
+            <span class="bold">Yarn & Npm & Git</span> ，能够使用
+            <span class="bold">Node.js</span>搭配
+            <span class="bold">Express</span>进行基本后台开发
+          </p>
+        </li>
+        <li>
+          <p>
+            熟悉
+            <span class="bold">HTTP</span>协议及浏览器渲染原理，了解
+            <span class="bold">前端性能优化</span> 策略
+          </p>
+        </li>
+        <li>
+          <p>
+            熟悉
+            <span class="bold">Ajax</span>与后端交互的原理，了解常用的跨域解决方案
+            <span class="bold">JSONP、CORS</span> 等
+          </p>
+        </li>
+        <li>
+          <p>
+            了解常用 UI 组件库，如
+            <span class="bold">Bootstrap、ElementUI</span> 等
+          </p>
+        </li>
       </ul>
       <div class="wrap">
         <span class="ribbon6">专业技能</span>
@@ -32,7 +86,7 @@ export default {
     var option = {
       tooltip: {},
       radar: {
-        shape: 'circle',
+        shape: "circle",
         name: {
           textStyle: {
             color: "#fff",
@@ -48,6 +102,7 @@ export default {
           { name: "小程序", max: 100 },
           { name: "Vue", max: 100 },
           { name: "HTTP", max: 100 },
+          { name: "Node.js", max: 100 },
           { name: "移动端页面", max: 100 },
           { name: "HTML/CSS", max: 100 }
         ]
@@ -59,7 +114,7 @@ export default {
           // areaStyle: {normal: {}},
           data: [
             {
-              value: [90, 75, 80, 80, 80, 85, 90, 90],
+              value: [90, 75, 80, 80, 80, 85, 75, 90, 90],
               name: "自我评价"
             }
           ]
@@ -91,8 +146,11 @@ export default {
   width: 120px;
   border: 1px solid #607d8b;
 }
-#main{
+#main {
+  width: 400px;
+  height: 260px;
   align-self: center;
+  max-width: 90vw;
 }
 .main > p {
   color: #252728;
@@ -101,7 +159,10 @@ export default {
   letter-spacing: 1px;
   font-weight: 300;
 }
-ul{
+span.bold {
+  font-weight: bold;
+}
+ul {
   margin: 0;
 }
 .wrap {
@@ -165,7 +226,7 @@ ul{
 }
 @media (max-width: 1125px) {
   .main {
-    margin: 40px;
+    margin: 80px 40px 40px;
     width: calc(100vw - 180px);
     min-height: 400px;
     padding: 50px;
@@ -177,7 +238,7 @@ ul{
   }
   .main {
     width: auto;
-    padding: 1em;
+    padding: 3em 1em;
     margin: 0;
   }
 }
