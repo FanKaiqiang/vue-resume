@@ -62,21 +62,21 @@
         </div>
       </div>
       <div class="job">
-        <h4>Translate Extension - Chrome 翻译插件</h4>
+        <h4>Franko Translate - Chrome 划词翻译插件</h4>
         <div class="inner">
           <div class="msg">
-            <p>此项目是由我开发的一款 Chrome 翻译插件，简洁好用，支持多语言，支持翻译开关，划词翻译，右键菜单翻译跳转，多国语言翻译设置。</p>
+            <p>此项目是一款的划词翻译插件，属于 Chrome 浏览器的拓展程序，是我的 Chrome 插件开发初学项目。此插件支持多国语言、划词翻译、菜单翻译。借助这款插件，在浏览网页时就可以很方便地翻译一些需要的内容。</p>
             <a target="_blank"
               href="https://github.com/FanKaiqiang/Translate-extension/blob/master/README.md"
             >>>详细介绍</a>
-            <p>技术栈：原生 JS、HTML5、CSS3、Canvas、iconfont、SVG</p>
+            <p>技术栈：Chrome Extensions、ES6、HTML(5)、CSS(3)</p>
 
             <a target="_blank" href="https://github.com/FanKaiqiang/Translate-extension">
               <button class="link">代码链接</button>
             </a>
             
-            <a target="_blank" href="https://github.com/FanKaiqiang/Translate-extension">
-              <button class="link">预览链接</button>
+            <a target="_blank" href="https://github.com/FanKaiqiang/Translate-extension/raw/master/Extensions.zip" download="划词翻译插件">
+              <button class="link">下载链接</button>
             </a>
           </div>
           <img src="../assets/pro4.jpg">
@@ -126,7 +126,7 @@
           <div class="msg">
             <p>此项目使用 JS 将样式代码动态显示到页面中，并随着代码的显示更新样式，从而实现实时绘制一只动态的猫头鹰的效果。</p>
             <a target="_blank" href="https://github.com/FanKaiqiang/auto-owl">>>详细介绍</a>
-            <p>技术栈：原生 JS、HTML5、CSS3、Canvas、iconfont、SVG</p>
+            <p>技术栈：原生 JS、HTML5、CSS3</p>
 
             <a target="_blank" href="https://github.com/FanKaiqiang/auto-owl">
               <button class="link">代码链接</button>
