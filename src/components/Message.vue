@@ -208,7 +208,7 @@ button.skip:hover {
   }
 }
 
-@media (max-width: 1200px) and (min-width: 1125px) {
+@media (max-width: 1200px) and (min-width: 1126px) {
   .main > .message > .buttonWrapper {
     position: absolute;
     top: 450px;
