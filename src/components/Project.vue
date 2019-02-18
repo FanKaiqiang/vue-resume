@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="main">
-      <h2>项目展示（施工中）</h2>
+      <h2>项目展示</h2>
       <div class="line"></div>
       <div class="job">
         <h4>Franko Canvas - 在线画板应用</h4>
@@ -49,12 +49,12 @@
         <div class="inner">
           <div class="msg">
             <p>此项目是使用Vue.js 技术栈，借助社区提供的 API，重新搭建的 CNode 社区。基本实现原 CNode 社区所具备的重要功能。</p>
-            <a href="https://github.com/FanKaiqiang/vue-cnode/blob/master/README.md">>>详细介绍</a>
+            <a target="_blank" href="https://github.com/FanKaiqiang/vue-cnode">>>详细介绍</a>
             <p>技术栈：Vue、Vue-Router、HTML5、CSS3</p>
-            <a href="https://github.com/FanKaiqiang/vue-cnode">
+            <a target="_blank" href="https://github.com/FanKaiqiang/vue-cnode">
               <button class="link">代码链接</button>
             </a>
-            <a href="http://franko.top/vue-cnode/dist/index.html">
+            <a target="_blank" href="http://franko.top/vue-cnode/dist/index.html">
               <button class="link">预览链接</button>
             </a>
           </div>
@@ -66,18 +66,39 @@
         <div class="inner">
           <div class="msg">
             <p>此项目是由我开发的一款 Chrome 翻译插件，简洁好用，支持多语言，支持翻译开关，划词翻译，右键菜单翻译跳转，多国语言翻译设置。</p>
-            <a href="https://github.com/FanKaiqiang/Translate-extension/blob/master/README.md">>>详细介绍</a>
+            <a target="_blank"
+              href="https://github.com/FanKaiqiang/Translate-extension/blob/master/README.md"
+            >>>详细介绍</a>
             <p>技术栈：原生 JS、HTML5、CSS3、Canvas、iconfont、SVG</p>
 
-            <a href="https://github.com/FanKaiqiang/Translate-extension">
+            <a target="_blank" href="https://github.com/FanKaiqiang/Translate-extension">
               <button class="link">代码链接</button>
             </a>
             
-            <a href="https://github.com/FanKaiqiang/Translate-extension">
+            <a target="_blank" href="https://github.com/FanKaiqiang/Translate-extension">
               <button class="link">预览链接</button>
             </a>
           </div>
-          <img src="../assets/pro1.png">
+          <img src="../assets/pro4.jpg">
+        </div>
+      </div>
+      <div class="job">
+        <h4>Franko-ui - 仿照 Element UI 制作的一个 UI 组件库</h4>
+        <div class="inner">
+          <div class="msg">
+            <p>此项目是使用 Vue 的过程中制作的一个 UI 框架，包括按钮、标签、输入框、网格、布局、浮层、提示框等组件。</p>
+            <a target="_blank" href="https://github.com/FanKaiqiang/Franko-ui">>>详细介绍</a>
+            <p>技术栈：Vue、HTML5、CSS3、parcel</p>
+
+            <a target="_blank" href="https://github.com/FanKaiqiang/Franko-ui">
+              <button class="link">代码链接</button>
+            </a>
+            
+            <a target="_blank" href="https://github.com/FanKaiqiang/Franko-ui">
+              <button class="link">预览链接</button>
+            </a>
+          </div>
+          <img src="../assets/pro5.png">
         </div>
       </div>
       <div class="job">
@@ -100,41 +121,22 @@
         </div>
       </div>
       <div class="job">
-        <h4>Franko Canvas - 在线画板应用</h4>
+        <h4>Auto Owl - 使用原生 JS 与 CSS3 现场绘制猫头鹰</h4>
         <div class="inner">
           <div class="msg">
-            <p>此项目是使用原生 JS 实现的在线画板，是我开始学习 JavaScript 时的一个练手作品，基本上实现了一个画板应该具有的所有功能。主要包括刚才提到的自定义画笔、自定义画板、保存画作等功能。</p>
-            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">>>详细介绍</a>
+            <p>此项目使用 JS 将样式代码动态显示到页面中，并随着代码的显示更新样式，从而实现实时绘制一只动态的猫头鹰的效果。</p>
+            <a href="https://github.com/FanKaiqiang/auto-owl">>>详细介绍</a>
             <p>技术栈：原生 JS、HTML5、CSS3、Canvas、iconfont、SVG</p>
 
-            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">
+            <a href="https://github.com/FanKaiqiang/auto-owl">
               <button class="link">代码链接</button>
             </a>
             
-            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">
+            <a href="http://franko.top/auto-owl">
               <button class="link">预览链接</button>
             </a>
           </div>
-          <img src="../assets/pro1.png">
-        </div>
-      </div>
-      <div class="job">
-        <h4>Franko Canvas - 在线画板应用</h4>
-        <div class="inner">
-          <div class="msg">
-            <p>此项目是使用原生 JS 实现的在线画板，是我开始学习 JavaScript 时的一个练手作品，基本上实现了一个画板应该具有的所有功能。主要包括刚才提到的自定义画笔、自定义画板、保存画作等功能。</p>
-            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">>>详细介绍</a>
-            <p>技术栈：原生 JS、HTML5、CSS3、Canvas、iconfont、SVG</p>
-
-            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">
-              <button class="link">代码链接</button>
-            </a>
-            
-            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">
-              <button class="link">预览链接</button>
-            </a>
-          </div>
-          <img src="../assets/pro1.png">
+          <img src="../assets/pro7.png">
         </div>
       </div>
       <div class="job">
@@ -175,8 +177,8 @@ main {
   display: flex;
   flex-direction: column;
 }
-.msg{
-  flex:1;
+.msg {
+  flex: 1;
 }
 .msg > a {
   color: blue;
@@ -239,7 +241,7 @@ p {
   color: #fff;
   cursor: pointer;
 }
-.link:hover{
+.link:hover {
   background: #555;
 }
 .wrap {
