@@ -102,22 +102,22 @@
         </div>
       </div>
       <div class="job">
-        <h4>Franko Canvas - 在线画板应用</h4>
+        <h4>Franko IM - React.js 开发的在线聊天系统</h4>
         <div class="inner">
           <div class="msg">
-            <p>此项目是使用原生 JS 实现的在线画板，是我开始学习 JavaScript 时的一个练手作品，基本上实现了一个画板应该具有的所有功能。主要包括刚才提到的自定义画笔、自定义画板、保存画作等功能。</p>
-            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">>>详细介绍</a>
-            <p>技术栈：原生 JS、HTML5、CSS3、Canvas、iconfont、SVG</p>
+            <p>此项目是借助 React 与 环信IMSDK 搭建的聊天系统，实现了用户注册登录、好友添加以及实时聊天功能。</p>
+            <a target="_blank" href="https://github.com/FanKaiqiang/Instant-Messaging">>>详细介绍</a>
+            <p>技术栈：React、ES6、Webpack、React-Router、Redux、CSS 工程化</p>
 
-            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">
+            <a target="_blank" href="https://github.com/FanKaiqiang/Instant-Messaging">
               <button class="link">代码链接</button>
             </a>
             
-            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">
+            <a target="_blank" href="http://franko.top/Instant-Messaging">
               <button class="link">预览链接</button>
             </a>
           </div>
-          <img src="../assets/pro1.png">
+          <img src="../assets/pro6.png">
         </div>
       </div>
       <div class="job">
@@ -125,14 +125,14 @@
         <div class="inner">
           <div class="msg">
             <p>此项目使用 JS 将样式代码动态显示到页面中，并随着代码的显示更新样式，从而实现实时绘制一只动态的猫头鹰的效果。</p>
-            <a href="https://github.com/FanKaiqiang/auto-owl">>>详细介绍</a>
+            <a target="_blank" href="https://github.com/FanKaiqiang/auto-owl">>>详细介绍</a>
             <p>技术栈：原生 JS、HTML5、CSS3、Canvas、iconfont、SVG</p>
 
-            <a href="https://github.com/FanKaiqiang/auto-owl">
+            <a target="_blank" href="https://github.com/FanKaiqiang/auto-owl">
               <button class="link">代码链接</button>
             </a>
             
-            <a href="http://franko.top/auto-owl">
+            <a target="_blank" href="http://franko.top/auto-owl">
               <button class="link">预览链接</button>
             </a>
           </div>
@@ -140,22 +140,22 @@
         </div>
       </div>
       <div class="job">
-        <h4>Franko Canvas - 在线画板应用</h4>
+        <h4>163 Music - 仿网易云音乐的手机端音乐播放器</h4>
         <div class="inner">
           <div class="msg">
-            <p>此项目是使用原生 JS 实现的在线画板，是我开始学习 JavaScript 时的一个练手作品，基本上实现了一个画板应该具有的所有功能。主要包括刚才提到的自定义画笔、自定义画板、保存画作等功能。</p>
-            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">>>详细介绍</a>
+            <p>此项目是一个仿网易云音乐的手机端音乐播放器，实现了可在线听歌、查看歌词、播放动画等功能。</p>
+            <a target="_blank" href="https://github.com/FanKaiqiang/music-demo/blob/master/README.md">>>详细介绍</a>
             <p>技术栈：原生 JS、HTML5、CSS3、Canvas、iconfont、SVG</p>
 
-            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">
+            <a target="_blank" href="https://github.com/FanKaiqiang/music-demo">
               <button class="link">代码链接</button>
             </a>
             
-            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">
+            <a target="_blank" href="http://franko.top/music-demo/src/index.html">
               <button class="link">预览链接</button>
             </a>
           </div>
-          <img src="../assets/pro1.png">
+          <img src="../assets/pro8.png">
         </div>
       </div>
       <hr>
