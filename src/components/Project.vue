@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="main">
-      <h2>项目展示</h2>
+      <h2>项目展示（施工中）</h2>
       <div class="line"></div>
       <div class="job">
         <h4>Franko Canvas - 在线画板应用</h4>
@@ -62,18 +62,18 @@
         </div>
       </div>
       <div class="job">
-        <h4>Franko Canvas - 在线画板应用</h4>
+        <h4>Translate Extension - Chrome 翻译插件</h4>
         <div class="inner">
           <div class="msg">
-            <p>此项目是使用原生 JS 实现的在线画板，是我开始学习 JavaScript 时的一个练手作品，基本上实现了一个画板应该具有的所有功能。主要包括刚才提到的自定义画笔、自定义画板、保存画作等功能。</p>
-            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">>>详细介绍</a>
+            <p>此项目是由我开发的一款 Chrome 翻译插件，简洁好用，支持多语言，支持翻译开关，划词翻译，右键菜单翻译跳转，多国语言翻译设置。</p>
+            <a href="https://github.com/FanKaiqiang/Translate-extension/blob/master/README.md">>>详细介绍</a>
             <p>技术栈：原生 JS、HTML5、CSS3、Canvas、iconfont、SVG</p>
 
-            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">
+            <a href="https://github.com/FanKaiqiang/Translate-extension">
               <button class="link">代码链接</button>
             </a>
             
-            <a href="https://github.com/FanKaiqiang/Franko-canvas/blob/master/README.md">
+            <a href="https://github.com/FanKaiqiang/Translate-extension">
               <button class="link">预览链接</button>
             </a>
           </div>

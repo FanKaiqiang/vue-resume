@@ -9,7 +9,7 @@
         <p><span class="bold">意向职位</span> 前端开发</p>
         <p>在校期间热衷于前端技术的学习，具有强烈的求知欲。做事认真，细致严谨，踏实肯干，有较强的团队合作能力、抗压能力、沟通能力和工作能力。愿意用激情与成果证明自己能够成为团队中流砥柱.</p>
         <div class="buttonWrapper">
-          <a href="../../static/resume.pdf" download="2019-樊凯强-应聘前端工程师.pdf"><button class="download">下载 PDF 版简历</button></a>
+          <a href="/vue-resume/static/resume.pdf" download="2019-樊凯强-应聘前端工程师.pdf"><button class="download">下载 PDF 版简历</button></a>
           <router-link :to="{name:'Contact'}">
             <button class="skip">联系我</button>
           </router-link>
