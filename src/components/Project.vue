@@ -45,6 +45,25 @@
         </div>
       </div>
       <div class="job">
+        <h4>Franko-ui - 仿照 Element UI 制作的一个 UI 组件库</h4>
+        <div class="inner">
+          <div class="msg">
+            <p>Franko UI 是一个基于 Vue 2 实现的 UI 框架，使用这套框架可以帮助工程师快速搭建页面，提升产品设计效率。此框架包括许多开发页面时常用的组件，包括按钮、输入框、布局、布局容器、弹窗、标签页、弹出框、折叠面板等。</p>
+            <a target="_blank" href="http://franko.top/Franko-ui">>>详细介绍</a>
+            <p>技术栈：Vue、SCSS、parcel、ES6、Travis CI、Karma、Mocha</p>
+
+            <a target="_blank" href="https://github.com/FanKaiqiang/Franko-ui">
+              <button class="link">代码链接</button>
+            </a>
+            
+            <a target="_blank" href="http://franko.top/Franko-ui">
+              <button class="link">开发文档</button>
+            </a>
+          </div>
+          <img src="../assets/pro5.png">
+        </div>
+      </div>
+      <div class="job">
         <h4>Vue CNode - Vue 全家桶搭建的高仿 CNode 社区</h4>
         <div class="inner">
           <div class="msg">
@@ -66,7 +85,8 @@
         <div class="inner">
           <div class="msg">
             <p>此项目是一款的划词翻译插件，属于 Chrome 浏览器的拓展程序，是我的 Chrome 插件开发初学项目。此插件支持多国语言、划词翻译、菜单翻译。借助这款插件，在浏览网页时就可以很方便地翻译一些需要的内容。</p>
-            <a target="_blank"
+            <a
+              target="_blank"
               href="https://github.com/FanKaiqiang/Translate-extension/blob/master/README.md"
             >>>详细介绍</a>
             <p>技术栈：Chrome Extensions、ES6、HTML(5)、CSS(3)</p>
@@ -75,30 +95,15 @@
               <button class="link">代码链接</button>
             </a>
             
-            <a target="_blank" href="https://github.com/FanKaiqiang/Translate-extension/raw/master/Extensions.zip" download="划词翻译插件">
+            <a
+              target="_blank"
+              href="https://github.com/FanKaiqiang/Translate-extension/raw/master/Extensions.zip"
+              download="划词翻译插件"
+            >
               <button class="link">下载链接</button>
             </a>
           </div>
           <img src="../assets/pro4.jpg">
-        </div>
-      </div>
-      <div class="job">
-        <h4>Franko-ui - 仿照 Element UI 制作的一个 UI 组件库</h4>
-        <div class="inner">
-          <div class="msg">
-            <p>此项目是使用 Vue 的过程中制作的一个 UI 框架，包括按钮、标签、输入框、网格、布局、浮层、提示框等组件。</p>
-            <a target="_blank" href="https://github.com/FanKaiqiang/Franko-ui">>>详细介绍</a>
-            <p>技术栈：Vue、HTML5、CSS3、parcel</p>
-
-            <a target="_blank" href="https://github.com/FanKaiqiang/Franko-ui">
-              <button class="link">代码链接</button>
-            </a>
-            
-            <a target="_blank" href="https://github.com/FanKaiqiang/Franko-ui">
-              <button class="link">预览链接</button>
-            </a>
-          </div>
-          <img src="../assets/pro5.png">
         </div>
       </div>
       <div class="job">
@@ -144,7 +149,10 @@
         <div class="inner">
           <div class="msg">
             <p>此项目是一个仿网易云音乐的手机端音乐播放器，实现了可在线听歌、查看歌词、播放动画等功能。</p>
-            <a target="_blank" href="https://github.com/FanKaiqiang/music-demo/blob/master/README.md">>>详细介绍</a>
+            <a
+              target="_blank"
+              href="https://github.com/FanKaiqiang/music-demo/blob/master/README.md"
+            >>>详细介绍</a>
             <p>技术栈：原生 JS、HTML5、CSS3、Canvas、iconfont、SVG</p>
 
             <a target="_blank" href="https://github.com/FanKaiqiang/music-demo">
