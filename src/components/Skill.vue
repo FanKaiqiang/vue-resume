@@ -53,21 +53,27 @@
         <li>
           <p>
             熟悉
-            <span class="bold">HTTP</span>协议及浏览器渲染原理，了解
-            <span class="bold">前端性能优化</span> 策略
-          </p>
-        </li>
-        <li>
-          <p>
-            熟悉
             <span class="bold">Ajax</span>与后端交互的原理，了解常用的跨域解决方案
             <span class="bold">JSONP、CORS</span> 等
           </p>
         </li>
         <li>
           <p>
+            了解
+            <span class="bold">HTTP</span>协议及浏览器渲染原理，了解
+            <span class="bold">前端性能优化</span> 策略
+          </p>
+        </li>
+        <li>
+          <p>
             了解常用 UI 组件库，如
             <span class="bold">Bootstrap、ElementUI</span> 等
+          </p>
+        </li>
+        <li>
+          <p>
+            了解
+            <span class="bold">小程序</span> 开发及相关概念，有相关开发配置经验。
           </p>
         </li>
       </ul>
