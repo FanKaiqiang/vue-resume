@@ -145,21 +145,19 @@
         </div>
       </div>
       <div class="job">
-        <h4>163 Music - 仿网易云音乐的手机端音乐播放器</h4>
+        <h4>Franko Wxtranslate - 翻译小程序</h4>
         <div class="inner">
           <div class="msg">
-            <p>此项目是一个仿网易云音乐的手机端音乐播放器，实现了可在线听歌、查看歌词、播放动画等功能。</p>
+            <p>此项目是一款翻译小程序，是我的小程序开发初 学项目。支持多国语言翻译及翻译历史查询。 </p>
             <a
               target="_blank"
-              href="https://github.com/FanKaiqiang/music-demo/blob/master/README.md"
+              href="https://github.com/FanKaiqiang/wx-translate"
             >>>详细介绍</a>
-            <p>技术栈：原生 JS、HTML5、CSS3、Canvas、iconfont、SVG</p>
-
-            <a target="_blank" href="https://github.com/FanKaiqiang/music-demo">
+            <p>技术栈：小程序、ES6、wxml、wxss</p>
+            <a target="_blank" href="https://github.com/FanKaiqiang/wx-translate">
               <button class="link">代码链接</button>
             </a>
-            
-            <a target="_blank" href="http://franko.top/music-demo/src/index.html">
+            <a target="_blank" href="https://github.com/FanKaiqiang/wx-translate">
               <button class="link">预览链接</button>
             </a>
           </div>
