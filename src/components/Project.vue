@@ -107,18 +107,18 @@
         </div>
       </div>
       <div class="job">
-        <h4>Franko IM - React.js 开发的在线聊天系统</h4>
+        <h4>Franko Sticky - NodeJS + Express 搭建的在线便利贴墙 </h4>
         <div class="inner">
           <div class="msg">
-            <p>此项目是借助 React 与 环信IMSDK 搭建的聊天系统，实现了用户注册登录、好友添加以及实时聊天功能。</p>
-            <a target="_blank" href="https://github.com/FanKaiqiang/Instant-Messaging">>>详细介绍</a>
-            <p>技术栈：React、ES6、Webpack、React-Router、Redux、CSS 工程化</p>
+            <p>此项目是一个在线便利贴墙，用户可以在界面中 增删改查自己的便利贴，支持数据云同步及 GitHub 登录。 此网站使用了 Node.js 搭配 Express 进行了基本的后台开发，支持在线预览。 </p>
+            <a target="_blank" href="https://github.com/FanKaiqiang/node-sticky">>>详细介绍</a>
+            <p>技术栈：Node.js、Express、webpack、sqlite3、less、ejs </p>
 
-            <a target="_blank" href="https://github.com/FanKaiqiang/Instant-Messaging">
+            <a target="_blank" href="https://github.com/FanKaiqiang/node-sticky">
               <button class="link">代码链接</button>
             </a>
             
-            <a target="_blank" href="http://franko.top/Instant-Messaging">
+            <a target="_blank" href="http://sticky.franko.top">
               <button class="link">预览链接</button>
             </a>
           </div>
