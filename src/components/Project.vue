@@ -122,7 +122,7 @@
               <button class="link">预览链接</button>
             </a>
           </div>
-          <img src="../assets/pro6.png">
+          <img src="../assets/pro6.jpg">
         </div>
       </div>
       <div class="job">
